@@ -1,30 +1,16 @@
 <template>
-    <Head title="Galatan Ovidiu Iulian | Curriculum Vitae"/>
+    <Head title="Galatan Ovidiu Iulian | Full Stack Web Developer"/>
 
     <div class="flex justify-start">
-        <div class="w-72 bg-gray-700 text-white min-h-screen p-6 flex-shrink-0">
-            <div class="flex items-center justify-center">
-                <img src="/images/galatan-ovidiu-iulian-profile-picture.jpeg"
-                     alt="Galatan Ovidiu Iulian - profile picture"
-                     class="rounded-full w-48 h-48 object-cover">
-            </div>
-            <div>
-                <h1 class="text-center py-4 text-2xl">Galatan Ovidiu Iulian</h1>
-            </div>
-
-            <ul>
-                <li>Born: 30.04.1980</li>
-            </ul>
-        </div>
-        <div class="bg-white text-gray-700 min-h-screen p-6 flex-1">
+        <div class="bg-white text-gray-700 min-h-screen p-6 flex-1 order-2">
             <h1 class="mb-0">Galatan Ovidiu Iulian</h1>
             <h2 class="text-xl">Fullstack Web Developer</h2>
 
-            <h3>Profile</h3>
+            <h3 class="mt-8">Profile</h3>
 
-            <p>I'm working as a web developer since 2005.</p>
+            <p>I'm working as a web developer since 2005, and most of my projects have been around Laravel, WordPress, VueJSa and ReactJS ecosystems</p>
 
-            <h3>My Stack</h3>
+            <h3 class="mt-8">My Stack</h3>
             <p><strong>PHP:</strong> As a back end web developer my main focus right now is Laravel but I've also done
                 lots of WordPress development in the past mainly with Roots/Sage and Roots/Bedrock for a more modern
                 development workflow; Also I have a bit of experience with python also.</p>
@@ -40,22 +26,21 @@
                 Tailwindcss. In the past I've also used Bootstrap, Foundation and Bulma</p>
 
             <p><strong>Server:</strong> For servers I've mostly used Nginx and Apache but also in one occasion I've used
-                litespeed. As an os I've mostly used Ubuntu and CentOS </p>
+                litespeed. Mostly used OS's have been Ubuntu and CentOS </p>
 
-            <p><strong>Services:</strong></p>
+            <p>
+                <strong>Others:</strong>
+                AWS Services, Docker, CI/CD trough github and gitlab, Unit Testing, Feature Testing, e2e Testing ...
+            </p>
 
-            <p><strong>Continuous Integration:</strong></p>
-
-            <p><strong>Tests:</strong></p>
-
-            <h2>Work History</h2>
+            <h2 class="mt-8">Work History</h2>
 
             <div>
                 <h3>DXC - Hemodynamic Modelling Simulator</h3>
-                <p>This was a 4 parts project built on Laravel for backend and VueJS on the frontend </p>
+                <p>This was a 4 parts project built on Laravel for backend and VueJS on the frontend. Hosting is done on AWS and I've also used AWS batch for starting multiple simulations at once</p>
                 <ol class="list">
                     <li>A VueJS app for users (Usually they are doctors)</li>
-                    <li>Laravel Backend for The interface</li>
+                    <li>Laravel Backend for the interface</li>
                     <li>A laravel microservice for handling the simulator.</li>
                     <li>A vueJS app for administrating the users, adding raw simulations configurations and starting
                         simulations in a batch
@@ -76,11 +61,11 @@
                 <p>This project has started as a WordPress website, but after the first year we have rebuild the website
                     in Laravel.</p>
                 <p>There is alo a 2nd component of this project, an app that extracts products from different affiliates
-                    programs like Amazon, CJ.</p>
+                    programs like Amazon, CJ...</p>
             </div>
             <div>
                 <h2>Bigrock - OX software</h2>
-                <p>This is one of my first big projects built with Yii framework and vanila JS</p>
+                <p>This is one of my first big projects built with Yii framework and vanilla JS</p>
             </div>
 
             <h3>And Lost of wordpress websites:</h3>
@@ -97,17 +82,17 @@
                 <li>And many, many  more ....</li>
             </ul>
 
-            <h3>Timeline</h3>
+            <h2 class="mt-8">Timeline</h2>
 
             <div>
                 <ul>
                     <li v-for="l in timeline" class="mb-4">
                         <div class="relative pb-8">
-                            <span class="absolute top-5 left-6 -ml-px h-full w-0.5 bg-gray-200" aria-hidden="true"></span>
+                            <span class="absolute top-5 left-6 -ml-px h-full w-0.5 bg-gray-200 last:hidden" aria-hidden="true"></span>
                             <div class="relative flex items-start space-x-3">
                                 <div class="relative">
                                     <list-date-display :year="l.startDate.year"
-                                                       :month="l.startDate.month"></list-date-display>
+                                                       :month="l.startDate.month" style="break-inside: avoid;"></list-date-display>
                                 </div>
                                 <div class="min-w-0 flex-1">
                                     <h3 class="font-medium text-gray-900 mb-0">{{ l.title }}</h3>
@@ -125,6 +110,130 @@
                     </li>
                 </ul>
             </div>
+
+            <div class="hidden printable mt-8 text-sm ">
+                To make sure you are viewing the latest version of my CV check the online version on <a href="https://ovidiu.galatan.info/">ovidiu.galatan.info</a>
+            </div>
+        </div>
+        <div class="w-72 bg-gray-700 text-white min-h-screen p-6 flex-shrink-0 order-1">
+            <div class="flex items-center justify-center">
+                <img src="/images/galatan-ovidiu-iulian-profile-picture.jpeg"
+                     alt="Galatan Ovidiu Iulian - profile picture"
+                     class="rounded-full w-48 h-48 object-cover">
+            </div>
+            <div>
+                <h1 class="text-center py-4 text-2xl">Galatan Ovidiu Iulian</h1>
+            </div>
+
+            <ul>
+                <li>Born: 30.04.1980</li>
+                <li>Nationality: Romanian</li>
+            </ul>
+
+            <ul>
+                <li>Phone: <a href="tel:+40757088709" class="text-indigo-100 font-bold">+40 757 088 709</a></li>
+                <li>Email: <a href="mailto:galatanovidiu@gmail.com" class="text-indigo-100 font-bold">galatanovidiu@gmail.com</a></li>
+                <li>Skype: <a href="skype:galatanovidiu" class="text-indigo-100 font-bold">galatanovidiu</a></li>
+                <li>Twitter: <a href="https://twitter.com/galatanovidiu" target="_blank" class="text-indigo-100 font-bold">galatanovidiu</a></li>
+                <li>Facebook: <a href="https://www.facebook.com/galatanovidiu" target="_blank" class="text-indigo-100 font-bold">galatanovidiu</a></li>
+                <li>LinkedIn: <a href="https://www.linkedin.com/in/galatanovidiu/" target="_blank" class="text-indigo-100 font-bold">galatanovidiu</a></li>
+                <li>GitHub: <a href="https://github.com/galatanovidiu?tab=repositories" target="_blank" class="text-indigo-100 font-bold">github.com/galatanovidiu</a></li>
+            </ul>
+
+            <h3>Skills</h3>
+
+            <ul class="space-y-3">
+                <li>
+                    PHP
+                    <div class="bg-indigo-100 w-full rounded h-3">
+                        <div  class="bg-indigo-500 w-full rounded h-3"></div>
+                    </div>
+                </li>
+                <li>
+                    OOP
+                    <div class="bg-indigo-100 w-full rounded h-3">
+                        <div  class="bg-indigo-500 w-full rounded h-3 w-11/12"></div>
+                    </div>
+                </li>
+                <li>
+                    MySQL
+                    <div class="bg-indigo-100 w-full rounded h-3">
+                        <div  class="bg-indigo-500 w-full rounded h-3"></div>
+                    </div>
+                </li>
+                <li>
+                    Laravel
+                    <div class="bg-indigo-100 w-full rounded h-3">
+                        <div  class="bg-indigo-500 w-full rounded h-3 w-11/12"></div>
+                    </div>
+                </li>
+                <li>
+                    WordPress
+                    <div class="bg-indigo-100 w-full rounded h-3">
+                        <div  class="bg-indigo-500 w-full rounded h-3"></div>
+                    </div>
+                </li>
+                <li>
+                    HTML
+                    <div class="bg-indigo-100 w-full rounded h-3">
+                        <div  class="bg-indigo-500 w-full rounded h-3"></div>
+                    </div>
+                </li>
+                <li>
+                    CSS
+                    <div class="bg-indigo-100 w-full rounded h-3">
+                        <div  class="bg-indigo-500 w-full rounded h-3"></div>
+                    </div>
+                </li>
+                <li>
+                    SASS
+                    <div class="bg-indigo-100 w-full rounded h-3">
+                        <div  class="bg-indigo-500 w-full rounded h-3"></div>
+                    </div>
+                </li>
+                <li>
+                    JavaScript
+                    <div class="bg-indigo-100 w-full rounded h-3">
+                        <div  class="bg-indigo-500 w-full rounded h-3 w-11/12"></div>
+                    </div>
+                </li>
+                <li>
+                    VueJS
+                    <div class="bg-indigo-100 w-full rounded h-3">
+                        <div  class="bg-indigo-500 w-full rounded h-3 w-11/12"></div>
+                    </div>
+                </li>
+                <li>
+                    ReactJS
+                    <div class="bg-indigo-100 w-full rounded h-3">
+                        <div  class="bg-indigo-500 w-full rounded h-3 w-9/12"></div>
+                    </div>
+                </li>
+                <li>
+                    Git (GitHub, GitLab, Bitbucket)
+                    <div class="bg-indigo-100 w-full rounded h-3">
+                        <div  class="bg-indigo-500 w-full rounded h-3 w-11/12"></div>
+                    </div>
+                </li>
+                <li>
+                    AWS Services
+                    <div class="bg-indigo-100 w-full rounded h-3">
+                        <div  class="bg-indigo-500 w-full rounded h-3 w-10/12"></div>
+                    </div>
+                </li>
+                <li>
+                    Leadership
+                    <div class="bg-indigo-100 w-full rounded h-3">
+                        <div  class="bg-indigo-500 w-full rounded h-3 w-10/12"></div>
+                    </div>
+                </li>
+                <li>
+                    Team Player
+                    <div class="bg-indigo-100 w-full rounded h-3">
+                        <div  class="bg-indigo-500 w-full rounded h-3"></div>
+                    </div>
+                </li>
+            </ul>
         </div>
     </div>
 

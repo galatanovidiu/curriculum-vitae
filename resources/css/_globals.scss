@@ -21,6 +21,7 @@ p {
 }
 
 ul {
+    @apply mb-4;
     &.list {
         @apply pl-2 list-disc;
         li {
@@ -29,10 +30,18 @@ ul {
     }
 }
 ol {
+    @apply mb-4;
     &.list {
         @apply pl-2 list-decimal;
         li {
             @apply ml-8;
         }
+    }
+}
+
+
+@media print {
+    .printable {
+        display:block!important;
     }
 }
