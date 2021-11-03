@@ -1,0 +1,150 @@
+{
+    "0": {
+        "startDate": {
+            "year": "2019",
+            "month": "03"
+        },
+        "endDate": {
+            "year": "2021",
+            "month": "09"
+        },
+        "title": "AgencyMai",
+        "shortDescription": "At AgencyMai I've worked at different projects some on Laravel some on Wordpress"
+    },
+    "1": {
+        "startDate": {
+            "year": "2017",
+            "month": "10"
+        },
+        "endDate": {
+            "year": "2019",
+            "month": "03"
+        },
+        "title": "BigRock",
+        "shortDescription": "For BigRock Ive created a LMS on Laravel with VueJS "
+    },
+    "2": {
+        "startDate": {
+            "year": "2014",
+            "month": "10"
+        },
+        "endDate": {
+            "year": "2017",
+            "month": "06"
+        },
+        "title": "RunRepeat",
+        "shortDescription": "At the beginning I've created the WordPress Website for runrepeat.com than we have created a web app in laravel for extracting prices from Amazon and other affiliates programs like CJ than we have migrated the entire website on Laravel"
+    },
+    "3": {
+        "startDate": {
+            "year": "2006",
+            "month": "06"
+        },
+        "endDate": {
+            "year": "2010",
+            "month": "12"
+        },
+        "title": "Ignite Studio",
+        "shortDescription": "In the time I've collaborated with Ignite studio, I've created websites using WordPress CMS and web aps using Yii framework"
+    },
+    "4": {
+        "startDate": {
+            "year": "2006",
+            "month": "01"
+        },
+        "title": "Freelance Web Developer",
+        "shortDescription": "In 2006 I've started my journey as a freelance web developer."
+    },
+    "5": {
+        "startDate": {
+            "year": "2005",
+            "month": "03"
+        },
+        "endDate": {
+            "year": "2005",
+            "month": "12"
+        },
+        "title": "Maintenance Electrician at Al Morrell Development",
+        "shortDescription": "My role here was to maintain the electrical devices on the water bottling plant in the US military base Q-West Iraq."
+    },
+    "6": {
+        "startDate": {
+            "year": "2004",
+            "month": "01"
+        },
+        "endDate": {
+            "year": "2005",
+            "month": "02"
+        },
+        "title": "County Emergency Clinical Hospital of Targu Mures",
+        "shortDescription": "PACS Engineer - My role here was to maintain the images server connected to all imaging devices like: MRI, CT scan and so on ... In this Time I've also created the firs hospital website, It was modified since that time https://www.spitalmures.ro/"
+    },
+    "7": {
+        "startDate": {
+            "year": "2003",
+            "month": "01"
+        },
+        "title": "Web development journey has started here",
+        "shortDescription": "<p>One of my colleague at Carel Telecommunications, knew a bit of html and css, and has done a website for the company, seeing what he is doing and the result I thought I can do that also, even better. This is when my passion for web development has started.</p> I've started with HTML, than CSS. I've also tried a bit of server side C++ but it looked to hard for what I needed at that time, so I've searched for an alternative way, and I've found PHP and MySQL and I've stuck with them ever since."
+    },
+    "8": {
+        "startDate": {
+            "year": "2002",
+            "month": "11"
+        },
+        "endDate": {
+            "year": "2003",
+            "month": "12"
+        },
+        "title": "Carel Telecommunications",
+        "shortDescription": "My main job here was to install and program the telephony servers. "
+    },
+    "9": {
+        "startDate": {
+            "year": "2002",
+            "month": "07"
+        },
+        "endDate": {
+            "year": "2002",
+            "month": "10"
+        },
+        "title": "Burger King - Germany",
+        "shortDescription": "It was a nice experience and, in addition to flipping burgers, I've found another world here another way of thinking diffrent from what I was used to see in Romania, this has helped me a lot"
+    },
+    "10": {
+        "startDate": {
+            "year": "1998",
+            "month": "10"
+        },
+        "endDate": {
+            "year": "2002",
+            "month": "06"
+        },
+        "title": "Petru Maior University - Electronics and Automation",
+        "shortDescription": "<p>As in high school i've continued to pursuit my passion for electronics but here I've discovered a new world, the world of software</p> Here I've started to learn C++ and microprocessors programming. Because my focus until this time was the hardware, I was not very good at software."
+    },
+    "11": {
+        "startDate": {
+            "year": "1994",
+            "month": "09"
+        },
+        "endDate": {
+            "year": "1998",
+            "month": "06"
+        },
+        "title": "Electromures High School - Electronics",
+        "shortDescription": "In high school I've continued to pursuit my passion for electronics"
+    },
+    "12": {
+        "startDate": {
+            "year": "1991",
+            "month": "09"
+        },
+        "endDate": {
+            "year": "1998",
+            "month": "04"
+        },
+        "title": "Kids Club - Electronics",
+        "shortDescription": "I've always been attracted to disassemble things to see how they are working, at the kids club I've learned how to build electronic devices with transistors, led's, capacitors .... "
+    }
+}

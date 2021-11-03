@@ -1,0 +1,38 @@
+a {
+    @apply text-blue-600;
+}
+
+h1, h2, h3 {
+    @apply font-bold my-2;
+}
+
+h1 {
+    @apply text-3xl;
+}
+h2 {
+    @apply text-2xl;
+}
+h3 {
+    @apply text-xl;
+}
+
+p {
+    @apply my-2;
+}
+
+ul {
+    &.list {
+        @apply pl-2 list-disc;
+        li {
+            @apply ml-8;
+        }
+    }
+}
+ol {
+    &.list {
+        @apply pl-2 list-decimal;
+        li {
+            @apply ml-8;
+        }
+    }
+}
