@@ -7,7 +7,7 @@ class CurriculumVitae extends Controller
     public function index()
     {
         return inertia('CurriculumVitae', [
-
+            'no_data' => 'Just for testing'
         ]);
     }
 }
