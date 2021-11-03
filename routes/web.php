@@ -24,8 +24,8 @@ use Inertia\Inertia;
 //    ]);
 //});
 
-Route::get('/', [\App\Http\Controllers\Index::class, 'index']);
-Route::get('/curriculum-vitae', [\App\Http\Controllers\CurriculumVitae::class, 'index']);
+//Route::get('/', [\App\Http\Controllers\Index::class, 'index']);
+Route::get('/', [\App\Http\Controllers\CurriculumVitae::class, 'index']);
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return Inertia::render('Dashboard');
