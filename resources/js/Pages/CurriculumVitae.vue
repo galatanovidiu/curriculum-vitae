@@ -1,7 +1,7 @@
 <template>
     <Head title="Galatan Ovidiu Iulian | Full Stack Web Developer"/>
 
-    <div class="flex flex-col lg:flex-row justify-start">
+    <div class="flex flex-col lg:flex-row print:flex-row justify-start">
         <div class="bg-white text-gray-700 min-h-screen p-6 flex-1 order-1 lg:order-2 max-w-screen-lg">
             <h1 class="mb-0">Galatan Ovidiu Iulian</h1>
             <h2 class="text-xl">Fullstack Web Developer</h2>
