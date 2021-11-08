@@ -19,6 +19,9 @@ module.exports = {
             colors: {
                 rose: colors.rose,
             },
+            screens: {
+                'print': {'raw': 'print'},
+            }
         },
     },
 

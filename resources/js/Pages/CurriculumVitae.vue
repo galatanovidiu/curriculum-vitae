@@ -115,7 +115,7 @@
                 To make sure you are viewing the latest version of my CV check the online version on <a href="https://ovidiu.galatan.info/">ovidiu.galatan.info</a>
             </div>
         </div>
-        <div class="lg:w-72 bg-gray-700 text-white min-h-screen p-6 flex-shrink-0 order-2 lg:order-1">
+        <div class="lg:w-96 print:w-72 bg-gray-700 text-white min-h-screen p-6 flex-shrink-0 order-2 lg:order-1">
             <div class="flex items-center justify-center">
                 <img src="/images/galatan-ovidiu-iulian-profile-picture.jpeg"
                      alt="Galatan Ovidiu Iulian - profile picture"
